@@ -1,8 +1,10 @@
+# Following Description That You Need To Know :-  
 
-# Note Create User Schema in MySql Workbench
+Note Create "User Schema" in MySql Workbench
 
-After Building SpringBoot Project hits this Following URl's:
+After Building SpringBoot Project Hit This Following URl's Is In Postman :-
 
+--------------------------------------------------------------------------------------------------------
 @UserRegistration Url In PostMan:
 
 Post Request :  Select Post Form Drop Down
@@ -20,9 +22,11 @@ Body Section -> Raw -> Select JSON from DropDown and Paste Following:
     "password":"Your Password"
 }
 
-and hit Url
+and hit Url.
 
-# output:
+Check IF You Are Getting Error! Which Server Port are You On Running and Try to Change It If Required! 
+
+# Output:
 
 {
     "name": "Username",
@@ -46,9 +50,10 @@ and hit Url
     "accountNonExpired": true
 }
 
+-------------------------------------------------------------------------------------------------------
 
 
-@UserLogin Url :
+@UserLogin Url In Postman:
 
 Post Request :  Select Post Form Drop Down
 
@@ -66,7 +71,7 @@ Body Section -> Raw -> select Json paste Following:
 
 and hit Url
 
-# output:
+# Output:
 
 {
     "token": "JWT TOKEN Here Which Contains ("Header","Payload","Verify Signature") and as in Encrypted typed"
