@@ -5,7 +5,7 @@ After Building SpringBoot Project hits this Following URl's:
 
 @UserRegistration Url In PostMan:
 
-Post Request:Select Post Form Drop Down
+Post Request :  Select Post Form Drop Down
 
 URl's: http://localhost:8080/api/v1/auth/register
 
@@ -50,15 +50,18 @@ and hit Url
 
 @UserLogin Url :
 
-Post Request:Select Post Form Drop Down
+Post Request :  Select Post Form Drop Down
 
 URl's: http://localhost:8080/api/v1/auth/login
 
 Body Section -> Raw -> select Json paste Following:
 
 {
+
     "username":"User-Email",
+    
     "password":"User-Password"
+
 }
 
 and hit Url
