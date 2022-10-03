@@ -1,19 +1,13 @@
-# JWT-Token-Creation-With-User-Access
 
-#Note Create User Schema in MySql Workbench
-spring.port=8080
-spring.jpa.hibernate.ddl-auto=update
-spring.datasource.url=jdbc:mysql://localhost:3306/nameOfSchema
-spring.datasource.username=username
-spring.datasource.password=password
-spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
-spring.jpa.show-sql= true
+# Note Create User Schema in MySql Workbench
 
+After Building SpringBoot Project hits this Following URl's:
 
-Register Url In PostMan:
+UserRegistration Url In PostMan:
+
 Post Request:Select Post Form Drop Down
-http://localhost:8080/api/v1/auth/register
 
+http://localhost:8080/api/v1/auth/register
 
 Body Section -> Raw -> select Json paste Following:
 {
