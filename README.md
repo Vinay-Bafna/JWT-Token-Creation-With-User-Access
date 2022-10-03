@@ -12,8 +12,10 @@ URl's: http://localhost:8080/api/v1/auth/register
 Body Section -> Raw -> select Json paste Following:
 
 {
-    "name":"Username",
+    "name":"Username", 
+    
     "email":"User-Email",
+    
     "password":"Your Password"
 }
 
