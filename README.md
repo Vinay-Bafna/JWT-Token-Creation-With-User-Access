@@ -3,21 +3,24 @@
 
 After Building SpringBoot Project hits this Following URl's:
 
-UserRegistration Url In PostMan:
+@UserRegistration Url In PostMan:
 
 Post Request:Select Post Form Drop Down
 
-http://localhost:8080/api/v1/auth/register
+URl's: http://localhost:8080/api/v1/auth/register
 
 Body Section -> Raw -> select Json paste Following:
+
 {
     "name":"Username",
     "email":"User-Email",
     "password":"Your Password"
 }
+
 and hit Url
 
-output:
+# output:
+
 {
     "name": "Username",
     "email": "User-Email",
@@ -42,18 +45,23 @@ output:
 
 
 
-login Url :
+@UserLogin Url :
+
 Post Request:Select Post Form Drop Down
-http://localhost:8080/api/v1/auth/login
+
+URl's: http://localhost:8080/api/v1/auth/login
+
 Body Section -> Raw -> select Json paste Following:
 
 {
     "username":"User-Email",
     "password":"User-Password"
 }
+
 and hit Url
 
-output:
+# output:
+
 {
     "token": "JWT TOKEN Here Which Contains ("Header","Payload","Verify Signature") and as in Encrypted typed"
     "user": {
