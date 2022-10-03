@@ -9,7 +9,7 @@ Post Request:Select Post Form Drop Down
 
 URl's: http://localhost:8080/api/v1/auth/register
 
-Body Section -> Raw -> select Json paste Following:
+Body Section -> Raw -> Select JSON from DropDown and Paste Following:
 
 {
 
