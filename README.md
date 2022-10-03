@@ -13,11 +13,11 @@ Body Section -> Raw -> select Json paste Following:
 
 {
 
-    "name":"Username", 
+   { "name":"Username", 
     
     "email":"User-Email",
     
-    "password":"Your Password"
+    "password":"Your Password"}
 }
 
 and hit Url
